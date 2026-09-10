@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private feedback
+    url: mailto:feedback@bundlemath.com
+    about: Send feedback that should not be public.
+  - name: BundleMath privacy policy
+    url: https://bundlemath.com/#privacy
+    about: Read how calculator inputs and feedback are handled.

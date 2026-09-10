@@ -1,0 +1,28 @@
+name: Product feedback or price correction
+description: Report a missing service, price change, or product issue.
+title: "[Feedback]: "
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve BundleMath. Please do not include your name, email address, bill, account details, payment information, or a shared results link.
+  - type: dropdown
+    id: type
+    attributes:
+      label: What would you like to report?
+      options:
+        - Missing service or bundle
+        - Price or plan correction
+        - Broken link
+        - Calculator issue
+        - General feedback
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Include the service or plan name and an official public source link when available. Do not include personal or account information.
+    validations:
+      required: true
